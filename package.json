@@ -1,0 +1,15 @@
+{
+  "name": "script-formatter-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automatizador de formatação de roteiros em Fountain/PDF via OpenRouter LLMs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
